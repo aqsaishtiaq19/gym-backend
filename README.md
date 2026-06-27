@@ -136,7 +136,7 @@ Server runs on `http://localhost:5000`
 
 🎨 **Frontend Repository** → [gym-tamplate](https://github.com/aqsaishtiaq19/gym-tamplate)
 
-🌐 **Frontend Live Site** → [View Live](https://https://gym-tamplate-git-main-momin2.vercel.app/)
+🌐 **Frontend Live Site** → [View Live](https://gym-tamplate-git-main-momin2.vercel.app)
 
 ---
 
