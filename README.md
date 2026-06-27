@@ -1,6 +1,6 @@
 # ⚙️ Gym Website — Backend
 
-A RESTful API backend for the Gym Website built with **Node.js**, **Express.js**, and **MongoDB Atlas**.
+A simple RESTful API backend for the Gym Website contact form, built with **Node.js**, **Express.js**, and **MongoDB Atlas**.
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -52,11 +52,10 @@ A RESTful API backend for the Gym Website built with **Node.js**, **Express.js**
 
 ## ✨ Features
 
-- 📨 Contact form message storage
-- 🔐 JWT Authentication middleware
+- 📨 Stores contact form messages (name, email, message)
 - 🗄️ MongoDB Atlas cloud database
 - 🚀 Deployed on Railway
-- 📋 Full CRUD operations
+- 📋 Full CRUD operations on messages
 - 🛡️ Error handling & validation
 
 ---
@@ -69,7 +68,6 @@ A RESTful API backend for the Gym Website built with **Node.js**, **Express.js**
 | Express.js | Web framework |
 | MongoDB Atlas | Cloud database |
 | Mongoose | MongoDB ODM |
-| JWT | Authentication |
 | Railway | Deployment & hosting |
 
 ---
@@ -79,11 +77,11 @@ A RESTful API backend for the Gym Website built with **Node.js**, **Express.js**
 ```
 gym-backend/
 ├── config/
-│   └── db.js              ← MongoDB connection
+│   └── db.js              ← MongoDB Atlas connection
 ├── middleware/
-│   └── middleware.js       ← JWT auth middleware
+│   └── middleware.js       ← Request middleware
 ├── models/
-│   └── message.js          ← Message schema
+│   └── message.js          ← Message schema (fullName, email, message)
 ├── routes/
 │   └── messageRoutes.js    ← API routes
 ├── .env                    ← Environment variables (hidden)
@@ -127,11 +125,7 @@ PORT=5000
 ### Run the Server
 
 ```bash
-# Development
-npm run dev
-
-# Production
-npm start
+node index.js
 ```
 
 Server runs on `http://localhost:5000`
@@ -142,7 +136,7 @@ Server runs on `http://localhost:5000`
 
 🎨 **Frontend Repository** → [gym-tamplate](https://github.com/aqsaishtiaq19/gym-tamplate)
 
-🌐 **Frontend Live Site** → [View Live](https://gym-tamplate.vercel.app)
+🌐 **Frontend Live Site** → [View Live](https://https://gym-tamplate-git-main-momin2.vercel.app/)
 
 ---
 
